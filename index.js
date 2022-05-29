@@ -12,83 +12,63 @@ const questions = [
    
       {
         type:'input',
-        name: 'name',
+        name: 'managerName',
         message: 'What is the name of the MANAGER?'
       },
       {
         type: 'input',
-        name: 'id',
+        name: 'managerId',
         message: 'What is their employee ID?'
       },
       {
         type: 'input',
-        name: 'email',
+        name: 'managerEmail',
         message: 'What is their E-mail address?'
       },
       {
         type: 'input',
-        name: 'office',
+        name: 'managerOffice',
         message: 'What is their office number?'
       },
       {
         type:'input',
-        name: 'name',
-        message: 'What is the name of the MANAGER?'
+        name: 'engineerName',
+        message: 'What is the name of the ENGINEER?'
       },
       {
         type: 'input',
-        name: 'id',
+        name: 'engineerId',
         message: 'What is their employee ID?'
       },
       {
         type: 'input',
-        name: 'email',
+        name: 'engineerEmail',
         message: 'What is their E-mail address?'
       },
       {
         type: 'input',
-        name: 'office',
-        message: 'What is their office number?'
+        name: 'engineerGithub',
+        message: 'What is their Github username?'
       },
       {
         type:'input',
-        name: 'name',
-        message: 'What is the name of the MANAGER?'
+        name: 'internName',
+        message: 'What is the name of the INTERN?'
       },
       {
         type: 'input',
-        name: 'id',
+        name: 'internId',
         message: 'What is their employee ID?'
       },
       {
         type: 'input',
-        name: 'email',
+        name: 'internEmail',
         message: 'What is their E-mail address?'
       },
       {
         type: 'input',
-        name: 'office',
-        message: 'What is their office number?'
-      },
-      {
-        type:'input',
-        name: 'name',
-        message: 'What is the name of the MANAGER?'
-      },
-      {
-        type: 'input',
-        name: 'id',
-        message: 'What is their employee ID?'
-      },
-      {
-        type: 'input',
-        name: 'email',
-        message: 'What is their E-mail address?'
-      },
-      {
-        type: 'input',
-        name: 'office',
-        message: 'What is their office number?'
+        name: 'internGithub',
+        message: 'What is their Github username?'
       }
     ];
 
@@ -98,7 +78,7 @@ function init() {
     
         const pageHTML = generatePage(userInput)
     
-        fs.writeFile('./index.html', pageHTML, err => {
+        fs.writeFile('./dist/index.html', pageHTML, err => {
             if (err) {
                 console.log(err)
             }
