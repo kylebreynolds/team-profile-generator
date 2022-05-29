@@ -34,4 +34,4 @@
   If you have any additional questions, email me at: <a href='mailto:kbreyn06@gmail.com'>kbreyn06@gmail.com</a>
 
   ## Walkthrough Video
-  https://drive.google.com/file/d/1jJ7mHtKY1yaBurrq-c1l92iM-8vlXhNR/view
+  https://drive.google.com/file/d/1fNOicYbGob0A8bOXMehzLWhrYiBzuE1G/view
